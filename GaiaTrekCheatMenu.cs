@@ -49,7 +49,6 @@ namespace Cheat
         [HarmonyPrefix, HarmonyPatch(typeof(MonsterCard), "GetAttackRange")]
         public static bool MonsterCard_GetAttackRange_Prefix(MonsterCard __instance)
         {
-            Debug.Log("无限距离");
             if (RangeBool)
             {
                 __instance.attackRange = 5;
@@ -64,7 +63,6 @@ namespace Cheat
         [HarmonyPrefix, HarmonyPatch(typeof(MonsterCard), "GetAttackSpeed")]
         public static bool MonsterCard_GetAttackSpeed_Prefix(MonsterCard __instance)
         {
-            Debug.Log("5倍攻速");
             if (SpeedBool)
             {
                 __instance.attackSpeed = 0.2f;
@@ -93,7 +91,6 @@ namespace Cheat
         [HarmonyPrefix, HarmonyPatch(typeof(ResourceCard), "AddCard")]
         public static bool ResourceCard_AddCard_Prefix(ResourceCard __instance,ResourceCard card)
         {
-            Debug.Log("10倍资源");
             if (ResourceBool)
             {
                 __instance.count = card.count * 10 + __instance.count;

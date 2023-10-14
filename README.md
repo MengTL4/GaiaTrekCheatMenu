@@ -2,6 +2,8 @@
 
 盖娅迷航内置修改器
 
+按F9开关菜单
+
 功能：
 
 - 无限攻击距离
@@ -19,6 +21,8 @@
 - BepInEx.Core.dll
 - BepInEx.Unity.dll
 
+![](https://github.com/MengTL4/GaiaTrekCheatMenu/blob/main/menu.png)
+
 更多功能待添加。。。
 
-![](https://github.com/MengTL4/GaiaTrekCheatMenu/blob/main/menu.png)
+

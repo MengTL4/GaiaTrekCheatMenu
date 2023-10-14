@@ -21,4 +21,4 @@
 
 更多功能待添加。。。
 
-![](https://github.com/MengTL4/AutoDaXueXi/blob/main/image/2.png)
+![](https://github.com/MengTL4/GaiaTrekCheatMenu/blob/main/menu.png)
